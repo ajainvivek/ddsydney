@@ -3,7 +3,7 @@
   'use strict';
 
   $(function () {
-    // FireShell
+    $('.owl-carousel').owlCarousel();
   });
 
 })(jQuery, window, document);

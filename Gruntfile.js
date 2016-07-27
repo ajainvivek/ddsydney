@@ -43,9 +43,11 @@ module.exports = function(grunt) {
       app: 'app',
       assets: '<%= project.app %>/assets',
       css: [
+        '<%= project.src %>/components/bootstrap/dist/css/bootstrap.css',
         '<%= project.src %>/scss/style.scss'
       ],
       js: [
+        '<%= project.src %>/components/bootstrap/dist/js/bootstrap.min.js',
         '<%= project.src %>/js/*.js'
       ]
     },

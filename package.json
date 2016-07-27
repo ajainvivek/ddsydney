@@ -1,14 +1,14 @@
 {
-  "name": "fireshell",
+  "name": "Deloitte Assignment",
   "title": "Fiercely quick and opinionated front-ends",
-  "url": "http://getfireshell.com",
-  "author": "Todd Motto",
-  "copyright": "2013",
+  "url": "",
+  "author": "Ajain Vivek",
+  "copyright": "2016",
   "version": "1.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/toddmotto/fireshell.git"
+    "url": ""
   },
   "devDependencies": {
     "bower": "^1.7.7",
