@@ -1,18 +1,93 @@
-@media only screen and (min-width:320px) {
+@media only screen and (min-width:360px) {
+  h1 {
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  h6 {
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .main {
+    .top {
+      padding: 30px 0;
+    }
+    .middle {
+      padding: 30px 0 0;
+    }
+    .bottom {
+      padding: 30px 0;
+    }
+  }
+
+  .main .container .content-wrapper {
+    padding-bottom: 20px;
+
+    &.sub {
+      padding: 20px 0;
+    }
+
+    .button {
+      &.medium {
+        font-size: 10px;
+        line-height: 10px;
+      }
+      &.large {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 10px 30px;
+      }
+    }
+    p {
+      font-size: 18px;
+      padding: 20px 0;
+    }
+  }
+
+  .main .breakout-wrapper {
+    .left {
+      padding: 0px 30px;
+    }
+    .right {
+      padding-left: 30px;
+    }
+  }
 
 }
-@media only screen and (min-width:480px) {
-
+@media only screen and (min-width:992px) {
+  .container {
+    width: 960px;
+  }
 }
-@media only screen and (min-width:768px) {
-
-}
-@media only screen and (min-width:1024px) {
-
-}
-@media only screen and (min-width:1140px) {
-
-}
-@media only screen and (min-width:1280px) {
-
+@media only screen and (min-width:1200px) {
+  .container {
+    width: 960px;
+  }
 }

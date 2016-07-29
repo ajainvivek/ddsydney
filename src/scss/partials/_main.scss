@@ -20,17 +20,13 @@
       padding-bottom: 80px;
 
       h1 {
-        font-size: 80px;
-        letter-spacing: 10px;
+        @extend h1;
         text-align: center;
-        text-transform: uppercase;
       }
 
       h4 {
-        font-size: 20px;
-        letter-spacing: 4px;
+        @extend h4;
         text-align: center;
-        text-transform: uppercase;
       }
 
       .subtitle {
@@ -109,11 +105,9 @@
       padding-top: 80px;
 
       h3 {
+        @extend h3;
         color: $black-color;
-        font-size: 30px;
-        letter-spacing: 3px;
         padding-bottom: 20px;
-        text-transform: uppercase;
       }
 
       .hr-line {
