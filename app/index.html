@@ -18,7 +18,7 @@
   <body>
 
     <!-- Header Container - Nav Menu + Banner -->
-    <header class="header" role="banner">
+    <header class="header">
       <div class="container">
         <!-- Navigation Menu -->
         <div class="nav-menu">
@@ -38,7 +38,7 @@
         <!-- /Navigation Menu -->
 
         <!-- Banner - Carousel -->
-        <div class="banner clear">
+        <div class="banner clear" role="banner">
           <div class="row">
             <div class="col-md-12">
               <div id="carousel-banner" class="carousel slide" data-ride="carousel">
@@ -108,7 +108,7 @@
                 <button class="button medium bordered expand">
                   +
                 </button>
-                <img src="assets/img/img-large.png" alt="large" />
+                <img src="assets/img/img-large.png" alt="large" data-caption="false" />
               </div>
             </div>
           </div>
@@ -132,7 +132,7 @@
                 <button class="button medium bordered expand">
                   +
                 </button>
-                <img src="assets/img/img-large.png" alt="large" />
+                <img src="assets/img/img-large.png" alt="large" data-caption="false"/>
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@
                 <button class="button medium bordered expand">
                   +
                 </button>
-                <img src="assets/img/img-medium.png" alt="medium" />
+                <img src="assets/img/img-medium.png" alt="medium" data-caption="false"/>
               </div>
             </div>
             <div class="col-md-6 col-sm-6">
@@ -153,7 +153,7 @@
                 <button class="button medium bordered expand">
                   +
                 </button>
-                <img src="assets/img/img-medium.png" alt="medium" />
+                <img src="assets/img/img-medium.png" alt="medium" data-caption="false"/>
               </div>
             </div>
           </div>
@@ -237,7 +237,7 @@
                 <button class="button medium bordered expand">
                   +
                 </button>
-                <img src="assets/img/img-large.png" alt="large" />
+                <img src="assets/img/img-large.png" alt="large" data-caption="true"/>
               </div>
             </div>
           </div>
@@ -268,7 +268,7 @@
                 <button class="button medium bordered expand">
                   +
                 </button>
-                <img src="assets/img/img-medium.png" alt="medium" />
+                <img src="assets/img/img-medium.png" alt="medium" data-caption="true"/>
               </div>
             </div>
             <div class="col-md-5 col-sm-6">
@@ -276,7 +276,7 @@
                 <button class="button medium bordered expand">
                   +
                 </button>
-                <img src="assets/img/img-medium.png" alt="medium" />
+                <img src="assets/img/img-medium.png" alt="medium" data-caption="true"/>
               </div>
             </div>
           </div>
@@ -304,7 +304,7 @@
 
         <!-- Project Container -->
         <div class="project-wrapper row">
-          <div class="project col-md-3">
+          <div class="project col-md-3" tabindex="0">
             <div class="img-block">
             </div>
             <h6>Project Name</h6>
@@ -312,7 +312,7 @@
               Lorem ipsum dolor sit amet
             </p>
           </div>
-          <div class="project col-md-3">
+          <div class="project col-md-3" tabindex="0">
             <div class="img-block">
             </div>
             <h6>Project Name</h6>
@@ -320,7 +320,7 @@
               Lorem ipsum dolor sit amet
             </p>
           </div>
-          <div class="project col-md-3">
+          <div class="project col-md-3" tabindex="0">
             <div class="img-block">
             </div>
             <h6>Project Name</h6>
@@ -328,7 +328,7 @@
               Lorem ipsum dolor sit amet
             </p>
           </div>
-          <div class="project col-md-3">
+          <div class="project col-md-3" tabindex="0">
             <div class="img-block">
             </div>
             <h6>Project Name</h6>
@@ -353,6 +353,22 @@
       </div>
 
     </footer>
+
+    <!--  Modal Window -->
+    <div id="image-modal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <button type="button" class="button bordered close" name="button">X</button>
+          <div class="content">
+            <h3>Modal</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  /Modal Window -->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/components/jquery.js"><\/script>');</script>
