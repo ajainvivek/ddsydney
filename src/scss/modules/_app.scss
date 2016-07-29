@@ -1,0 +1,31 @@
+/*** Override Default Stylesheets ***/
+
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-menu-left,
+.carousel-control .glyphicon-menu-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-menu-left {
+  left: 50%;
+  margin-left: -10px;
+}
+
+.carousel-control .icon-next,
+.carousel-control .glyphicon-menu-right {
+  right: 50%;
+  margin-right: -10px;
+}
+
+.row {
+  &>div {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}

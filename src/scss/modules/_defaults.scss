@@ -12,27 +12,7 @@ body {
   font: 300 13px/1.6 'Avenir-Black', Helvetica, Arial;
 }
 
-/*** Override Default Stylesheets ***/
-
-.carousel-control .icon-prev,
-.carousel-control .icon-next,
-.carousel-control .glyphicon-menu-left,
-.carousel-control .glyphicon-menu-right {
-  position: absolute;
-  top: 50%;
-  z-index: 5;
-  display: inline-block;
-  margin-top: -10px;
-}
-
-.carousel-control .icon-prev,
-.carousel-control .glyphicon-menu-left {
-  left: 50%;
-  margin-left: -10px;
-}
-
-.carousel-control .icon-next,
-.carousel-control .glyphicon-menu-right {
-  right: 50%;
-  margin-right: -10px;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
 }

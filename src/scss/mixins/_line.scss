@@ -1,0 +1,5 @@
+@mixin hr-line($color, $width) {
+  background-color: $color;
+  height: 1px;
+  width: $width;
+}
